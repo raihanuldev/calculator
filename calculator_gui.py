@@ -44,13 +44,13 @@ buttons = [
     ['4','5','6','*'],
     ['1','2','3','-'],
     ['C','0','=','+'],
-    ['√', '%', '^', 'Quit']
+    ['√', '%', '^', 'Exit']
 ]
 
 # create button dynamiclly
 for r,row in enumerate(buttons):
     for c,text in enumerate(row):
-        if text=='Quit':
+        if text=='Exit':
             btn = tk.Button(root,text=text,font="Arial",width=5,height=2,command=root.quit)
         else:
             btn  = tk.Button(root,text=text,font="Arial",width=5,height=2,command=lambda t= text:on_button_click(t))
