@@ -3,3 +3,6 @@
 # new feautre add korte hobe.
 # > scientifitic Calculator er 
  
+ 
+"NextRound Proejct Planing"
+"pip install word2number"
