@@ -1,7 +1,6 @@
 import tkinter as tk
 import math
 import speech_recognition as sr
-
 # Handle button click
 def on_button_click(value):
     if value == "=":
